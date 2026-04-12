@@ -23,7 +23,7 @@ export function CheckoutButton({ propertyId }: { propertyId: string }) {
       const stripe = await stripePromise
       
       if (stripe) {
-        await stripe.redirectToCheckout({ sessionId })
+        await (stripe as any).redirectToCheckout({ sessionId })
       }
     } catch (error) {
       console.error("Stripe Checkout Error:", error)
