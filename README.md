@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 The Editorial Academic — Student Real Estate Hub
 
-## Getting Started
+> A premium, student-focused housing marketplace specifically designed for Newton School of Technology (NST) students in Lohegaon, Pune.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Framework-Next.js_14-000000?logo=next.js)](https://nextjs.org)
+[![Supabase](https://img.shields.io/badge/Backend-Supabase-3ECF8E?logo=supabase)](https://supabase.com)
+[![Stripe](https://img.shields.io/badge/Payments-Stripe-635BFF?logo=stripe)](https://stripe.com)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
+
+---
+
+## 🎓 Technical Alignment (Industry Ready)
+
+This platform provides a **Hands-on Learning** experience in building secure, real-time student marketplaces:
+
+- **Secure Authentication**: Implements a robust user authentication system similar to Google using **Supabase MFA & RLS**.
+- **Real-time Marketplace**: Architected as a platform like **eBay**, enabling verified property interactions and real-time state synchronization.
+- **Enterprise Payments**: Integrated **Stripe API** for secure booking transactions and premium student services.
+- **UI/UX Foundations**: Modern, fully functional responsive design with a focus on ease-of-use for the NST community.
+
+---
+
+## 🏫 Mission
+
+The Editorial Academic solves the critical housing challenge for university students. We provide verified, high-quality, and community-centric living spaces within walking distance of the NST campus.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| 🏘️ **Verified Listings** | Curated property listings with high-fidelity images, detailed amenities, and direct landlord contact. |
+| 💳 **Secure Payments** | Integrated Stripe gateway for booking deposits and premium housing services. |
+| 🤝 **Roommate Matching** | Algorithmic roommate preference matcher specifically for students within the same university. |
+| 📊 **Student Dashboard** | Centralized portal for managing saved listings, inquiry status, and housing preferences. |
+| ✍️ **Landlord Portal** | Rich-text editorial workflow (via TipTap) for landlords to list and manage student properties. |
+| 📍 **Location Optimized** | Targeted focus on the Lohegaon/Pune area around the university campus. |
+
+---
+
+## 🛠️ Technical Implementation
+
+- **Frontend:** Next.js 14 (App Router), React, TypeScript
+- **State Management:** React Server Components & Hooks
+- **Styling:** Tailwind CSS with Framer Motion for smooth transitions
+- **Backend-as-a-Service:** Supabase (Auth, PostgreSQL, Storage, RLS)
+- **Payments:** Stripe Checkout and Webhook integration
+- **Workflow Tools:** TipTap (Rich Text Editor), Lucide Icons, Radix UI
+
+---
+
+## 📂 Architecture
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/                # Next.js App Router (Dashboard, Listings, Auth, Property)
+├── components/         # Atomic UI components, Layout, and Feature sections
+├── lib/                # Supabase client, Matching logic, and Utility functions
+├── types/              # TypeScript interfaces for Supabase and Stripe
+└── public/             # Optimized property assets and brand identity
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Development Quickstart
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1.  **Environment Setup:**
+    Create a `.env.local` with your Supabase and Stripe keys.
+2.  **Install & Run:**
+    ```bash
+    npm install
+    npm run dev
+    ```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Author
+**Ayush Shukla** — [github.com/ayushshukla1807](https://github.com/ayushshukla1807)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+MIT License

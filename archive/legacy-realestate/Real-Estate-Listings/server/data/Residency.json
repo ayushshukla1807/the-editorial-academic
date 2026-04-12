@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Oberoi Sky City",
+    "description": "Luxurious 3BHK apartment with panoramic views of the National Park. Amenities include a clubhouse, swimming pool, and landscaped gardens. Located in Borivali East, Mumbai.",
+    "price": 35000000,
+    "address": "Borivali East",
+    "city": "Mumbai",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "3"
+    },
+    "userEmail": "ayush.shukla@example.com",
+    "createdAt": {
+      "$date": "2023-09-15T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-15T10:00:00.000Z"
+    }
+  },
+  {
+    "title": "DLF Camellias",
+    "description": "Ultra-luxury 4BHK apartment in Gurgaon's most prestigious address. Overlooking the golf course with world-class amenities and concierge service.",
+    "price": 85000000,
+    "address": "Golf Course Road",
+    "city": "Gurugram",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "5",
+      "parking": "3",
+      "bedrooms": "4"
+    },
+    "userEmail": "aman@example.com",
+    "createdAt": {
+      "$date": "2023-09-18T14:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-18T14:30:00.000Z"
+    }
+  },
+  {
+    "title": "Prestige Shantiniketan",
+    "description": "Spacious 2BHK in Whitefield, perfect for IT professionals. Close to major tech parks and malls. Integrated township with all modern conveniences.",
+    "price": 12000000,
+    "address": "Whitefield",
+    "city": "Bangalore",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "2"
+    },
+    "userEmail": "ashish@example.com",
+    "createdAt": {
+      "$date": "2023-09-20T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-20T09:15:00.000Z"
+    }
+  },
+  {
+    "title": "Hiranandani Gardens",
+    "description": "Classic neo-classical architecture in Powai. 1BHK studio apartment suitable for singles or couples. Lush green surroundings and lake view.",
+    "price": 18000000,
+    "address": "Powai",
+    "city": "Mumbai",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1600596542815-27b88e54e621?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "1",
+      "parking": "1",
+      "bedrooms": "1"
+    },
+    "userEmail": "abhijeet@example.com",
+    "createdAt": {
+      "$date": "2023-09-22T11:45:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-22T11:45:00.000Z"
+    }
+  },
+  {
+    "title": "Phoenix One Bangalore West",
+    "description": "Premium 3BHK in Rajajinagar. High-rise living with excellent connectivity to the city center. Club One offers top-notch recreational facilities.",
+    "price": 32000000,
+    "address": "Rajajinagar",
+    "city": "Bangalore",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "3"
+    },
+    "userEmail": "ayush.shukla@example.com",
+    "createdAt": {
+      "$date": "2023-09-25T16:20:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-25T16:20:00.000Z"
+    }
+  },
+  {
+    "title": "My Home Bhooja",
+    "description": "Iconic 4BHK sky villas in Hitech City. Vertical gardens and sustainable design. The tallest residential towers in Hyderabad.",
+    "price": 55000000,
+    "address": "Hitech City",
+    "city": "Hyderabad",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "5",
+      "parking": "3",
+      "bedrooms": "4"
+    },
+    "userEmail": "aman@example.com",
+    "createdAt": {
+      "$date": "2023-09-28T13:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-28T13:10:00.000Z"
+    }
+  },
+  {
+    "title": "Godrej South Estate",
+    "description": "Luxury 3BHK in Okhla. A landmark address in South Delhi with air purification systems and lavish interiors.",
+    "price": 42000000,
+    "address": "Okhla",
+    "city": "Delhi",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "3"
+    },
+    "userEmail": "ashish@example.com",
+    "createdAt": {
+      "$date": "2023-10-01T10:05:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-01T10:05:00.000Z"
+    }
+  },
+  {
+    "title": "Lodha Altamount",
+    "description": "Exclusive 5BHK residence on Altamount Road. Known as India's Billionaires' Row. Unmatched privacy and luxury.",
+    "price": 150000000,
+    "address": "Altamount Road",
+    "city": "Mumbai",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "6",
+      "parking": "4",
+      "bedrooms": "5"
+    },
+    "userEmail": "abhijeet@example.com",
+    "createdAt": {
+      "$date": "2023-10-05T08:50:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-05T08:50:00.000Z"
+    }
+  },
+  {
+    "title": "Brigade Exotica",
+    "description": "Green-focused 3BHK apartments in Old Madras Road. Unique architecture with patio for every apartment. expansive views.",
+    "price": 16000000,
+    "address": "Old Madras Road",
+    "city": "Bangalore",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1512918760513-95f192972701?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "1",
+      "bedrooms": "3"
+    },
+    "userEmail": "ayush.shukla@example.com",
+    "createdAt": {
+      "$date": "2023-10-08T15:40:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-08T15:40:00.000Z"
+    }
+  },
+  {
+    "title": "Emaar MGF Palm Springs",
+    "description": "Mediterranean style villas in Gurgaon. Private pool and garden. A community of like-minded luxury seekers.",
+    "price": 60000000,
+    "address": "Sector 54",
+    "city": "Gurugram",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b91d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "5",
+      "parking": "3",
+      "bedrooms": "4"
+    },
+    "userEmail": "aman@example.com",
+    "createdAt": {
+      "$date": "2023-10-12T12:25:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-12T12:25:00.000Z"
+    }
+  },
+  {
+    "title": "Rustomjee Elements",
+    "description": "Gated community in Juhu. 3BHK apartment with access to a 3-acre podium garden. Celebrity neighborhood.",
+    "price": 45000000,
+    "address": "Juhu",
+    "city": "Mumbai",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1513584685908-95c9e2d01977?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "2",
+      "bedrooms": "3"
+    },
+    "userEmail": "ashish@example.com",
+    "createdAt": {
+      "$date": "2023-10-15T09:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-15T09:30:00.000Z"
+    }
+  },
+  {
+    "title": "Sobha Indraprastha",
+    "description": "Royal themed 4BHK apartments in Rajajinagar. Connected to a mall and metro station. Infinity pool on the 37th floor.",
+    "price": 38000000,
+    "address": "Rajajinagar",
+    "city": "Bangalore",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "4",
+      "parking": "2",
+      "bedrooms": "4"
+    },
+    "userEmail": "abhijeet@example.com",
+    "createdAt": {
+      "$date": "2023-10-18T14:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-18T14:15:00.000Z"
+    }
+  },
+  {
+    "title": "Jaypee Greens",
+    "description": "Golf-centric living in Greater Noida. 2BHK apartment overlooking the 18-hole Greg Norman golf course.",
+    "price": 9000000,
+    "address": "Greater Noida",
+    "city": "Noida",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "2",
+      "parking": "1",
+      "bedrooms": "2"
+    },
+    "userEmail": "ayush.shukla@example.com",
+    "createdAt": {
+      "$date": "2023-10-21T11:50:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-21T11:50:00.000Z"
+    }
+  },
+  {
+    "title": "Aparna Serene Park",
+    "description": "Peaceful 3BHK in Kondapur. Surrounded by botanical gardens. Excellent for families with children.",
+    "price": 14000000,
+    "address": "Kondapur",
+    "city": "Hyderabad",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1576941089067-dbde57bdad3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "3",
+      "parking": "1",
+      "bedrooms": "3"
+    },
+    "userEmail": "aman@example.com",
+    "createdAt": {
+      "$date": "2023-10-25T10:40:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-25T10:40:00.000Z"
+    }
+  },
+  {
+    "title": "Risland Sky Mansion",
+    "description": "100-meter height skyscraper in Chattarpur. 4BHK ultra-luxury condos with smart home features.",
+    "price": 70000000,
+    "address": "Chattarpur",
+    "city": "Delhi",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1598228723793-52759bba239c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "facilities": {
+      "bathrooms": "5",
+      "parking": "3",
+      "bedrooms": "4"
+    },
+    "userEmail": "ashish@example.com",
+    "createdAt": {
+      "$date": "2023-10-28T13:55:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-28T13:55:00.000Z"
+    }
+  }
+]
