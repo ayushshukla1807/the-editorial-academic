@@ -100,13 +100,14 @@ export default function PropertyDetailPage({ params }: { params: { id: string } 
               {/* Description */}
               <section>
                  <h2 className="text-2xl font-bold mb-6">About this Residence</h2>
-                 <p className="text-muted-foreground text-lg leading-relaxed">{property.description}</p>
+                 <p className="text-sm text-muted-foreground">Don&apos;t have an account? It will be created automatically.</p>
               </section>
 
               {/* Amenities */}
               <section>
-                 <h2 className="text-2xl font-bold mb-8">What's included</h2>
+                 <h2 className="text-2xl font-bold mb-8">What&apos;s included</h2>
                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {property.description || "Finding your perfect home shouldn&apos;t be hard. This verified property offers all the essentials for a comfortable student life."}
                     {property.amenities.map((amenity) => (
                        <div key={amenity} className="flex items-center gap-4 p-4 rounded-2xl bg-card border border-border shadow-sm">
                           <CheckCircle2 className="w-5 h-5 text-green-500" />

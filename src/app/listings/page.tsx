@@ -93,7 +93,7 @@ export default function ListingsPage() {
         </div>
         
         <div className="mt-24 p-12 rounded-[48px] bg-secondary/30 border border-border flex flex-col items-center text-center">
-          <h2 className="text-2xl font-bold mb-4">Can't find what you're looking for?</h2>
+          <h2 className="text-2xl font-bold mb-4">Can&apos;t find what you&apos;re looking for?</h2>
           <p className="text-muted-foreground mb-8 max-w-lg">Our student housing experts are here to help you find the perfect stay near campus. We add new listings every week.</p>
           <div className="flex gap-4">
              <button className="bg-primary text-primary-foreground px-8 py-3 rounded-full font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">Get in Touch</button>

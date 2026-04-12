@@ -74,9 +74,7 @@ export function AuthForm() {
       </form>
 
       <div className="mt-8 pt-8 border-t border-border text-center">
-        <p className="text-xs text-muted-foreground">
-          Don't have an account? <span className="text-primary font-bold cursor-pointer hover:underline">Request Access</span>
-        </p>
+        <p className="text-sm text-muted-foreground">Don&apos;t have an account? It will be created automatically.</p>
       </div>
     </div>
   )
