@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic";
+
 import { Navbar } from "@/components/layout/navbar";
 import { ListingCard } from "@/components/listings/listing-card";
 import { Filters } from "@/components/listings/filters";

@@ -1,0 +1,20 @@
+
+> the-editorial-academic@0.1.0 start
+> next start
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ⚠ Disabling SWC Minifer will not be an option in the next major version. Please report any issues you may be experiencing to https://github.com/vercel/next.js/issues
+Error: ENOENT: no such file or directory, open '/Users/ayushshukla/Projects/editorial-academic/.next/prerender-manifest.json'
+    at async open (node:internal/fs/promises:639:25)
+    at async Object.readFile (node:internal/fs/promises:1287:14)
+    at async setupFsCheck (/Users/ayushshukla/Projects/editorial-academic/node_modules/next/dist/server/lib/router-utils/filesystem.js:188:40)
+    at async initialize (/Users/ayushshukla/Projects/editorial-academic/node_modules/next/dist/server/lib/router-server.js:61:23)
+    at async Server.<anonymous> (/Users/ayushshukla/Projects/editorial-academic/node_modules/next/dist/server/lib/start-server.js:249:36) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/ayushshukla/Projects/editorial-academic/.next/prerender-manifest.json'
+}
