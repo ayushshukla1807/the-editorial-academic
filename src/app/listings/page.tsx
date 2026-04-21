@@ -16,7 +16,8 @@ export default function ListingsPage() {
       isFeatured: true,
       beds: 2,
       baths: 1,
-      sqft: 180
+      sqft: 180,
+      aiInsights: ["8.5/10 Safety Score", "Ultra-Quiet"]
     },
     {
       id: "2",
@@ -27,7 +28,8 @@ export default function ListingsPage() {
       image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       beds: 1,
       baths: 1,
-      sqft: 450
+      sqft: 450,
+      aiInsights: ["Gigabit Fiber", "Workstation Desk"]
     },
     {
       id: "3",
@@ -38,7 +40,8 @@ export default function ListingsPage() {
       image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       beds: 3,
       baths: 2,
-      sqft: 320
+      sqft: 320,
+      aiInsights: ["Social Hub", "Bi-weekly Events"]
     },
     {
       id: "4",
@@ -49,7 +52,8 @@ export default function ListingsPage() {
       image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       beds: 2,
       baths: 2,
-      sqft: 850
+      sqft: 850,
+      aiInsights: ["Sun-lit Balcony", "New Construction"]
     },
     {
       id: "5",
@@ -60,7 +64,8 @@ export default function ListingsPage() {
       image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       beds: 1,
       baths: 1,
-      sqft: 280
+      sqft: 280,
+      aiInsights: ["Walking Distance", "Secure Access"]
     },
     {
       id: "6",
@@ -71,7 +76,8 @@ export default function ListingsPage() {
       image: "https://images.unsplash.com/photo-1556912177-c54030639a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       beds: 2,
       baths: 1,
-      sqft: 200
+      sqft: 200,
+      aiInsights: ["Laundry Service", "Mess Included"]
     }
   ]
 

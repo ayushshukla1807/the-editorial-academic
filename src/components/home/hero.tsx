@@ -3,6 +3,7 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { SearchBar } from "@/components/home/search-bar"
+import { AnimatedCounter } from "@/components/ui/animated-counter"
 import { GraduationCap, ArrowRight, BrainCircuit, Sparkles } from "lucide-react"
 
 export function Hero() {
@@ -55,15 +56,21 @@ export function Hero() {
             
             <div className="mt-12 flex items-center gap-8 border-t border-white/10 pt-8">
               <div>
-                <div className="text-3xl font-black text-white">99.1%</div>
+                <div className="text-3xl font-black text-white">
+                  <AnimatedCounter value={99.1} decimals={1} />%
+                </div>
                 <div className="text-xs text-muted-foreground tracking-widest uppercase mt-1">Match Accuracy</div>
               </div>
               <div>
-                <div className="text-3xl font-black text-white">&lt;40ms</div>
+                <div className="text-3xl font-black text-white">
+                  &lt;<AnimatedCounter value={40} />ms
+                </div>
                 <div className="text-xs text-muted-foreground tracking-widest uppercase mt-1">Redis Latency</div>
               </div>
               <div>
-                <div className="text-3xl font-black text-white">315+</div>
+                <div className="text-3xl font-black text-white">
+                  <AnimatedCounter value={315} />+
+                </div>
                 <div className="text-xs text-muted-foreground tracking-widest uppercase mt-1">Active Nodes</div>
               </div>
             </div>

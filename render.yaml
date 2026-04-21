@@ -8,3 +8,17 @@ services:
     envVars:
       - key: NODE_VERSION
         value: ~20
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        value: https://iedqablcshibfohzuept.supabase.co
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: NEXT_PUBLIC_MAPBOX_TOKEN
+        sync: false
+      - key: NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
+      - key: STRIPE_SECRET_KEY
+        sync: false
